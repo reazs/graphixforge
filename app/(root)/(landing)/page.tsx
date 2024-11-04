@@ -13,12 +13,13 @@ import { Input } from "@/components/ui/input";
 import { Printer, Maximize2, FileText, ArrowRight, Box } from "lucide-react";
 import {
   AboutSection,
+  CTASection,
   HeroSection,
+  ProcessSection,
   ServicesSection,
+  TestimonialsSection,
 } from "@/components/landingPageSecitons";
-import TestimonialsSection from "@/components/landingPageSecitons/TestimonialsSection";
-import ProcessSection from "@/components/landingPageSecitons/ProcessSection";
-import CTASection from "@/components/landingPageSecitons/CTASection";
+import Footer from "@/components/shared/Footer";
 
 export default function GraphixForgeLandingPage() {
   return (
@@ -69,19 +70,7 @@ export default function GraphixForgeLandingPage() {
         <ProcessSection />
         <CTASection />
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500">
-          © 2024 GraphixForge. All rights reserved.
-        </p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Terms of Service
-          </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Privacy
-          </Link>
-        </nav>
-      </footer>
+      <Footer />
     </div>
   );
 }

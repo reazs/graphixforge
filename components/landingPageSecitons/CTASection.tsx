@@ -15,7 +15,7 @@ const CTASection = () => {
             </p>
           </div>
           <div className="w-full max-w-sm space-y-2">
-            <Button className="w-full" variant="outline">
+            <Button className="w-full" variant="secondary">
               Request a Quote
             </Button>
           </div>

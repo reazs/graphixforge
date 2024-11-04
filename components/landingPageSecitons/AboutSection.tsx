@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 export default function AboutSection() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <Image
-            src="/placeholder.svg?height=400&width=600"
+            src="/undraw_art_museum_-8-or4.svg"
             width={600}
             height={400}
             alt="About GraphixForge"
