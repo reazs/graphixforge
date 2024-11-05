@@ -21,6 +21,7 @@ import {
 } from "@/components/landingPageSecitons";
 import Footer from "@/components/shared/Footer";
 
+
 export default function GraphixForgeLandingPage() {
   return (
     <div className="flex flex-col min-h-screen ">
