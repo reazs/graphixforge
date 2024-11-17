@@ -49,7 +49,7 @@ const ProcessSection = () => {
           ))}
         </div>
         <div className="mt-8 text-center">
-          <Button>Get Started Today</Button>
+          <button className="btn btn-outline">Get Started Today</button>
         </div>
       </div>
     </section>

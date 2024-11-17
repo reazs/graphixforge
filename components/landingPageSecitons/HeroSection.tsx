@@ -15,13 +15,10 @@ export default function HeroSection() {
             </p>
           </div>
           <div className="space-x-4">
-            <Button
-              variant="outline"
-              className="bg-white text-black hover:bg-gray-200"
-            >
-              Get a Quote
-            </Button>
-            <Button variant="secondary">Explore Our Services</Button>
+            <button className="bg-white  btn btn-outline">Get a Quote</button>
+            <button className="bg-white btn btn-outline">
+              Explore Our Services
+            </button>
           </div>
         </div>
       </div>
